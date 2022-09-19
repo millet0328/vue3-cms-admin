@@ -1,11 +1,11 @@
 <template>
 	<div class="nav-bar">
-		<div class="left">
-			<img class="logo" height="45" src="../assets/img/common/logo.png" alt="logo" />
+		<el-space class="left">
+			<img class="logo" height="55" src="../assets/img/common/logo.png" alt="logo" />
 			<el-icon :size="20">
 				<Fold />
 			</el-icon>
-		</div>
+		</el-space>
 		<el-menu mode="horizontal" router background-color="#545c64" text-color="#fff" active-text-color="#ffd04b"
 			:ellipsis="false">
 			<el-menu-item index="/">站点设置</el-menu-item>
